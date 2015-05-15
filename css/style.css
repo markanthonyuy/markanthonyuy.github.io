@@ -153,6 +153,7 @@ a:hover {
 @media only screen and (max-width: 930px) {
 	.main { 
 		flex-direction: column;
+		height: 1100px;
 	}
 
 	.main-child {
@@ -161,8 +162,7 @@ a:hover {
 	}
 
 	.main-left { 
-		position: static;
-		overflow-y: scroll;
+		position: relative;
 	}
 
 	.main-left p {
@@ -171,6 +171,7 @@ a:hover {
 
 	.main-left-footer {
 		right: 0;
+		bottom: 10px;
 	}
 
 	.main-middle-photo {
@@ -179,12 +180,8 @@ a:hover {
 	}
 
 	.my-photo {
-		width: 150px;
-		height: 150px;
-	}
-
-	.main-right {
-		overflow-y: scroll;
+		width: 256px;
+		height: 256px;
 	}
 }
 
