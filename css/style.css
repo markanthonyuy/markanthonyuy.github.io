@@ -3,8 +3,22 @@
 /* DEFAULTS */
 
 html,body { height: 100%; }
-a { color: #0E940A; }
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; color: #2a2a2a;}
+a { 
+	color: #a8a8a8; 
+	text-decoration: none;
+}
+
+a, p, ul, li {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s eases;
+    -o-transition: all 0.5s eases;
+    transition: all 0.5s eases;
+}
+
+a:hover { 
+	color: #838543; 
+}
 
 .main { 
 	display: flex; 
@@ -22,7 +36,7 @@ a { color: #0E940A; }
 .main-left { 
 	position: relative;
 	padding: 20px; 
-	background: #FFFFFF;
+	background: #f9f9f9;
 }
 
 .main-left p {
@@ -46,7 +60,11 @@ a { color: #0E940A; }
 
 .main-left-footer ul li {
 	float: left;
-	margin-right: 20px;
+	width: 70px;
+}
+
+.main-left-footer ul li a img{
+	width: 80%;
 }
 
 /* MIDDLE */
@@ -76,7 +94,7 @@ a { color: #0E940A; }
 /* RIGHT */
 
 .main-right {
-	background: #FFFFFF;
+	background: #f9f9f9;
 	padding: 20px;
 	font-family: 'Ubuntu';
 }
@@ -90,12 +108,18 @@ a { color: #0E940A; }
 }
 
 .main-right ul li {
+	border-bottom: 1px solid #ccc;
+	padding: 3px 0;
 }
 
 .exp-year {
 	display: inline-block;
-	width: 120px;
+	width: 100px;
 	text-align: right;
+}
+
+.exp-year::after {
+	content: ' |';
 }
 
 @media only screen and (max-width: 930px) {
@@ -114,7 +138,6 @@ a { color: #0E940A; }
 
 	.main-left p {
 		margin-bottom: 20px;
-		font-size: 20px;
 	}
 
 	.main-left-footer {
@@ -132,9 +155,43 @@ a { color: #0E940A; }
 	}
 }
 
-@media only screen and (min-width: 570px) {
+@media only screen and (max-width: 570px) {
 	.main-left p {
-		font-size: 24px;
+		font-size: 20px;
+	}
+}
+
+
+@media only screen and (max-width: 479px) {
+	.exp-year { 
+		display: block; 
+		text-align: left;
 	}
 
+	.exp-year::after {
+		content: '';
+	}
+}
+
+@media only screen and (min-width: 930px) and (max-width: 1529px) {
+	.exp-year { 
+		display: block; 
+		text-align: left;
+	}
+
+	.exp-year::after {
+		content: '';
+	}
+}
+
+@media only screen and (max-width: 1149px) {
+	.main-right li {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width:  930px) and (max-width: 1080px) {
+	.main-right li b {
+		display: block;
+	}
 }
