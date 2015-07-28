@@ -46,9 +46,7 @@ a:hover {
 }
 
 .main-footer {
-	position: absolute;
-	bottom: 0;
-	right: 0;
+	float: right;
 }
 
 .main-footer ul::after { content: ''; display: block; clear: both; }
@@ -61,7 +59,6 @@ a:hover {
 .main-footer ul li {
 	float: left;
 	width: 70px;
-	border-bottom: none;
 }
 
 .main-footer ul li a img{
@@ -126,18 +123,18 @@ a:hover {
 	background: #f9f9f9;
 	padding: 20px;
 	font-family: 'Ubuntu';
-	position: relative;
 }
 
 .main-right h2 {
 	margin-bottom: 20px;
 }
 
-.main-right ul {
+.main-right-experience-list {
 	list-style: none;
+	margin-bottom: 30px;
 }
 
-.main-right ul li {
+.main-right-experience-list li {
 	border-bottom: 1px solid #ccc;
 	padding: 3px 0;
 }
