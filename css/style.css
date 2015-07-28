@@ -34,7 +34,6 @@ a:hover {
 /* LEFT */
 
 .main-left { 
-	position: relative;
 	padding: 20px; 
 	background: #f9f9f9;
 }
@@ -46,25 +45,27 @@ a:hover {
 	font-style: italic;
 }
 
-.main-left-footer {
+.main-footer {
 	position: absolute;
 	bottom: 0;
+	right: 0;
 }
 
-.main-left-footer ul::after { content: ''; display: block; clear: both; }
+.main-footer ul::after { content: ''; display: block; clear: both; }
 
-.main-left-footer ul {
+.main-footer ul {
 	padding-left: 0;
 	list-style: none;
 }
 
-.main-left-footer ul li {
+.main-footer ul li {
 	float: left;
 	width: 70px;
+	border-bottom: none;
 }
 
-.main-left-footer ul li a img{
-	width: 80%;
+.main-footer ul li a img{
+	width: 90%;
 }
 
 /* MIDDLE */
@@ -125,6 +126,7 @@ a:hover {
 	background: #f9f9f9;
 	padding: 20px;
 	font-family: 'Ubuntu';
+	position: relative;
 }
 
 .main-right h2 {
