@@ -5,8 +5,8 @@
 html,body { height: 100%; background: #f9f9f9;}
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; color: #2a2a2a;}
 a { 
-	color: #a8a8a8; 
-	text-decoration: none;
+	color: #838543; 
+	text-decoration: underline;
 }
 
 a, p, ul, li {
@@ -17,7 +17,8 @@ a, p, ul, li {
 }
 
 a:hover { 
-	color: #838543; 
+	color: #55562c; 
+	text-decoration: underline;
 }
 
 .main { 
