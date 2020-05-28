@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  > a {
+    padding: 20px;
+    font-size: 2rem;
+    text-decoration: none;
+
+    @media (max-width: 800px) {
+      font-size: 1.3rem;
+    }
+
+    @media (max-width: 500px) {
+      padding: 20px 0;
+    }
+
+    @media (max-width: 400px) {
+      font-size: 1.1rem;
+    }
+  }
+}
