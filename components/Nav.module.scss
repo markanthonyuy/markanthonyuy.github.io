@@ -1,11 +1,38 @@
+@import './vars';
 .nav {
   display: flex;
   justify-content: space-between;
 
   > a {
-    padding: 20px;
+    padding: 20px 0;
     font-size: 2rem;
     text-decoration: none;
+    background-repeat: no-repeat;
+
+    &.active {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    &:hover {
+      // background-image: linear-gradient($main-red, $main-red),
+      //   linear-gradient($main-yellow, $main-yellow),
+      //   linear-gradient($main-purple, $main-purple),
+      //   linear-gradient($main-blue, $main-blue),
+      //   linear-gradient($main-blue, $main-green),
+      //   linear-gradient($main-red, $main-red),
+      //   linear-gradient($main-yellow, $main-yellow),
+      //   linear-gradient($main-purple, $main-purple),
+      //   linear-gradient($main-blue, $main-blue),
+      //   linear-gradient($main-blue, $main-green);
+      // background-size: 10px 2px, 10px 2px, 10px 2px, 10px 2px, 10px 2px,
+      //   10px 2px, 10px 2px, 10px 2px, 10px 2px, 10px 2px;
+      // background-position: top 10px right 0, top 10px right 10px,
+      //   top 10px right 20px, top 10px right 30px, top 10px right 40px,
+      //   bottom 10px left 0, bottom 10px left 10px, bottom 10px left 20px,
+      //   bottom 10px left 30px, bottom 10px left 40px;
+      text-decoration: underline;
+    }
 
     @media (max-width: 800px) {
       font-size: 1.3rem;

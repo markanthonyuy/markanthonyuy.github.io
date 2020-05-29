@@ -14,17 +14,45 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: #dddddd;
+  color: #cecece;
 }
 
 a {
-  text-decoration: underline dashed #a767e5;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: #fff;
+  color: #f1f1f1;
 }
 
 ::selection {
   background: #44ce7b;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: #f1f1f1;
+  letter-spacing: 1px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #f1f1f1;
+  letter-spacing: 1px;
+}
+
+h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #f1f1f1;
+  letter-spacing: 1px;
+}
+
+p {
+  margin-bottom: 25px;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.7px;
 }

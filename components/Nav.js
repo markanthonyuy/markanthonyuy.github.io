@@ -1,18 +1,18 @@
 import styles from './Nav.module.scss'
 
-export default function Nav() {
+export default function Nav({ active }) {
   return (
     <nav className={styles.nav}>
-      <a href="#" className="home">
+      <a className={active === 'home' ? styles.active : ''} href="/">
         Home
       </a>
-      <a href="#" className="about">
+      <a className={active === 'about' ? styles.active : ''} href="/about">
         About
       </a>
-      <a href="#" className="project">
+      <a className={active === 'project' ? styles.active : ''} href="/project">
         Projects
       </a>
-      <a href="#" className="contact">
+      <a className={active === 'contact' ? styles.active : ''} href="/contact">
         Contact
       </a>
     </nav>

@@ -7,12 +7,12 @@
   flex-wrap: wrap;
   list-style: none;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     justify-content: flex-start;
   }
 
   > li {
-    @media (max-width: 900px) {
+    @media (max-width: 1000px) {
       width: 80px;
       margin-bottom: 20px;
       text-align: center;

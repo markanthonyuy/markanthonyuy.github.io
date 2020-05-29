@@ -1,13 +1,14 @@
 import styles from './main.module.scss'
 import Nav from '../components/Nav'
 import ToolIcons from '../components/ToolIcons'
+import Container from '../components/Container'
 import { motion } from 'framer-motion'
 
 export default function Home() {
   return (
-    <div className={styles.outer}>
-      <main className={styles.container}>
-        <Nav />
+    <Container>
+      <Nav active="home" />
+      <div className={styles.home}>
         <motion.figure
           className={styles.image}
           initial={{ scale: 0, opacity: 0 }}
@@ -30,23 +31,20 @@ export default function Home() {
           animate={{ y: 0, opacity: 1, transition: { delay: 0.3 } }}
         >
           Welcome to my site. I'm a Software Engineer specializing in frontend
-          development. I like to travel, watch e-sports dota2 and create a bunch
-          of web apps. Have a look around and make your self comfortable. It
-          excites me knowing that everyday is another opportunity to learn new
-          things.
+          development. I like to travel, spend time with my family and create a
+          bunch of web apps. It excites me knowing that everyday is another
+          opportunity to learn new things.
         </motion.p>
 
         <motion.p
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.5 } }}
         >
-          I work mostly work using these awesome tools!
+          Some of the languages, libraries, frameworks and tools that I'm using.
         </motion.p>
 
-        <ToolIcons />
-
-        <p className={styles.note}> Mark Anthony Uy &copy; 2020</p>
-      </main>
-    </div>
+        <ToolIcons preview />
+      </div>
+    </Container>
   )
 }
