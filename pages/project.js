@@ -21,6 +21,87 @@ export default function Project() {
     show: { opacity: 1 },
   }
 
+  const projects = [
+    {
+      name: 'Personal Website',
+      link: 'https://markanthonyuy.com/',
+      desc: 'This is the version 2 personal website.',
+      uses: ['Nextjs', 'Framer'],
+    },
+    {
+      name: 'Bingoo',
+      link: 'https://bingoo.now.sh/',
+      desc: 'Fun to play Bingo Game.',
+      uses: ['Reactjs', 'Framer', 'Styled-Components'],
+    },
+    {
+      name: 'Covid 19 Philippines Tracker',
+      link: 'https://covid19.com.ph/',
+      desc: 'Dedicated Covid 19 Tracker for Philippines.',
+      uses: ['Reactjs', 'Tailwind'],
+    },
+    {
+      name: 'Philippine UITF Listing',
+      link: 'https://uitf.now.sh/',
+      desc: "Updated market value of UITF's available in the Philippines.",
+      uses: ['Reactjs', 'Material UI', 'PWA'],
+    },
+    {
+      name: 'Cryptomark',
+      link: 'https://cryptomark.now.sh/',
+      desc: 'Compare Cryptocurrencies Realtime.',
+      uses: ['Reactjs', 'Bulma'],
+    },
+    {
+      name: 'Pokemon DB',
+      link: 'https://pokedb.now.sh/',
+      desc: 'Pokemon Database.',
+      uses: ['Nextjs', 'Framer', 'Sass'],
+    },
+    {
+      name: 'Dota 2 Leaderboards',
+      link: 'https://dota2leaderboards.now.sh/',
+      desc: 'List of Dota2 players with the highest Rank.',
+      uses: ['Nextjs', 'Framer', 'Serverless'],
+    },
+    {
+      name: 'Dota 2 Earnings',
+      link: 'https://dota2earnings.now.sh/',
+      desc: 'List of Dota 2 professional players with the highest earnings.',
+      uses: ['Nextjs', 'Framer', 'Serverless'],
+    },
+    {
+      name: 'Palitan',
+      link: 'https://markanthonyuy.com/palitan/',
+      desc: 'Simple currency exchange rate.',
+      uses: ['Reactjs'],
+    },
+    {
+      name: 'Manga Libre',
+      link: 'https://mangalibre.herokuapp.com/',
+      desc: 'Free, fast, simple and straightforward Manga Reader.',
+      uses: ['Backbonejs', 'Jquery'],
+    },
+    {
+      name: 'Libre Manga',
+      link: 'https://libremanga.herokuapp.com/',
+      desc: 'My first manga reader app.',
+      uses: ['HTML', 'CSS', 'Jquery'],
+    },
+    {
+      name: 'Marktip',
+      link: 'https://markanthonyuy.com/markTip/',
+      desc: 'Jquery tootlip plugin.',
+      uses: ['Javascript', 'Jquery'],
+    },
+    {
+      name: 'Randomizer',
+      link: 'https://markanthonyuy.com/randomizer/',
+      desc: 'Random Team Generator.',
+      uses: ['HTML', 'CSS', 'Javascript'],
+    },
+  ]
+
   return (
     <Container>
       <Nav active="project" />
@@ -60,17 +141,26 @@ export default function Project() {
           During my pastime I like to think of how can I solve problems. Just
           simple problems that I'm having. I remember a colleague of mine first
           made a Manga reader. I was in awe and got really inspired from that
-          day. I told myself that since I love reading manga I thought of the
-          problem that I always encounter. It's LOADING SPEED, POOR UI and Ads
-          Ads Ads! If you're reading manga definitely you are aware of these
-          problems, besides manga images are extemely huge the sites are always
-          bombarded with ads. Quite annoying. I don't blame them though if
-          that's their monitezation strategy. Anyway, I just took actions of the
-          matter and build my own Manga Reader. And{' '}
+          day. Since I love reading manga, I told myself that what is the
+          problem that I mostly encounter. The answers are LOADING SPEED, POOR
+          UI and Ads everywhere! If you're reading manga definitely you are
+          aware of these problems, besides manga images are extremely huge the
+          sites are always bombarded with ads. Quite annoying. I don't blame
+          them though if that's their monetization strategy. Anyway, I just took
+          action on the matter and build my own Manga Reader. And{' '}
           <a href="http://libremanga.herokuapp.com/">Libremanga</a> was born.
-          (FYI this is not maintained) My first web app. Then the rest is
+          (FYI this is not maintained.) My first web app. Then the rest is
           history :)
         </motion.p>
+
+        <motion.blockquote
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1, transition: { delay: 0.5 } }}
+        >
+          <p>
+            “A problem is a chance for you to do your best.” ― Duke Ellington
+          </p>
+        </motion.blockquote>
 
         <motion.p
           initial={{ y: 50, opacity: 0 }}
@@ -96,142 +186,19 @@ export default function Project() {
           initial="hidden"
           animate="show"
         >
-          <motion.div variants={item}>
-            <a href="https://bingoo.now.sh/" className={styles.title}>
-              Bingoo
-            </a>
-            <span className={styles.desc}>Fun to play Bingo Game.</span>
-            <span className={styles.built}>
-              <span>Reactjs</span> <span>Framer</span>{' '}
-              <span>Styled-Components</span>
-            </span>
-          </motion.div>
-          <motion.div variants={item}>
-            <a href="https://covid19.com.ph/" className={styles.title}>
-              Covid 19 Philippines Tracker
-            </a>
-            <span className={styles.desc}>
-              Dedicated Covid 19 Tracker for Philippines.
-            </span>
-            <span className={styles.built}>
-              <span>Reactjs</span> <span>Tailwind</span>
-            </span>
-          </motion.div>
-          <motion.div variants={item}>
-            <a href="https://uitf.now.sh/" className={styles.title}>
-              Philippine UITF Listing
-            </a>
-            <span className={styles.desc}>
-              Updated market value of UITF's available in the Philippines.
-            </span>
-            <span className={styles.built}>
-              <span>Reactjs</span> <span>Material UI</span> <span>PWA</span>
-            </span>
-          </motion.div>
-          <motion.div variants={item}>
-            <a href="https://cryptomark.now.sh/" className={styles.title}>
-              Cryptomark
-            </a>
-            <span className={styles.desc}>
-              Compare Cryptocurrencies Realtime.
-            </span>
-            <span className={styles.built}>
-              <span>Reactjs</span> <span>Bulma</span>
-            </span>
-          </motion.div>
-          <motion.div variants={item}>
-            <a href="https://pokedb.now.sh/" className={styles.title}>
-              Pokemon DB
-            </a>
-            <span className={styles.desc}>Pokemon Database.</span>
-            <span className={styles.built}>
-              <span>Nextjs</span> <span>Framer</span> <span>Sass</span>
-            </span>
-          </motion.div>
-          <motion.div variants={item}>
-            <a
-              href="https://dota2leaderboards.now.sh/"
-              className={styles.title}
-            >
-              Dota 2 Leaderboards!
-            </a>
-            <span className={styles.desc}>
-              List of Dota2 players with the highest Rank.
-            </span>
-            <span className={styles.built}>
-              <span>Nextjs</span> <span>Framer</span> <span>Serverless</span>
-            </span>
-          </motion.div>
-          <motion.div variants={item}>
-            <a href="https://dota2earnings.now.sh/" className={styles.title}>
-              Dota 2 Earnings!
-            </a>
-            <span className={styles.desc}>
-              List of Dota 2 professional players with the highest earnings.
-            </span>
-            <span className={styles.built}>
-              <span>Nextjs</span> <span>Framer</span> <span>Serverless</span>
-            </span>
-          </motion.div>
-          <motion.div variants={item}>
-            <a
-              href="https://markanthonyuy.com/palitan/"
-              className={styles.title}
-            >
-              Palitan
-            </a>
-            <span className={styles.desc}>Simple currency exchange rate.</span>
-            <span className={styles.built}>
-              <span>Reactjs</span>
-            </span>
-          </motion.div>
-          <motion.div variants={item}>
-            <a
-              href="https://mangalibre.herokuapp.com/"
-              className={styles.title}
-            >
-              Manga Libre
-            </a>
-            <span className={styles.desc}>
-              Free, fast, simple and straightforward Manga Reader.
-            </span>
-            <span className={styles.built}>
-              <span>Backbonejs</span> <span>Jquery</span>
-            </span>
-          </motion.div>
-          <motion.div variants={item}>
-            <a href="http://libremanga.herokuapp.com/" className={styles.title}>
-              Libre Manga
-            </a>
-            <span className={styles.desc}>My first manga reader app.</span>
-            <span className={styles.built}>
-              <span>HTML</span> <span>CSS</span> <span>Jquery</span>
-            </span>
-          </motion.div>
-          <motion.div variants={item}>
-            <a
-              href="https://markanthonyuy.com/markTip/"
-              className={styles.title}
-            >
-              Marktip
-            </a>
-            <span className={styles.desc}>Jquery tootlip plugin.</span>
-            <span className={styles.built}>
-              <span>Javascript</span> <span>Jquery</span>
-            </span>
-          </motion.div>
-          <motion.div variants={item}>
-            <a
-              href="https://markanthonyuy.com/randomizer/"
-              className={styles.title}
-            >
-              Randomizer
-            </a>
-            <span className={styles.desc}>Random Team Generator.</span>
-            <span className={styles.built}>
-              <span>HTML</span> <span>CSS</span> <span>Javascript</span>
-            </span>
-          </motion.div>
+          {projects.map((project) => (
+            <motion.div variants={item} key={project.name}>
+              <a href={project.link} className={styles.title}>
+                {project.name}
+              </a>
+              <span className={styles.desc}>{project.desc}</span>
+              <span className={styles.built}>
+                {project.uses.map((u, key) => (
+                  <span key={`${u}-${key}`}>{u}</span>
+                ))}
+              </span>
+            </motion.div>
+          ))}
         </motion.div>
       </div>
     </Container>

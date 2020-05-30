@@ -94,10 +94,20 @@ export default function About() {
           I'm Mark a.k.a. "Mac", husband to Bev, son of Tony and Lerma and the
           youngest of their children. Me and my wife loves to travel, We've seen
           the best white sand beaches of the Philippines to the beautiful
-          Islands of Maldives. We love to explore, see nature, marvel at
-          architectures, learn other cultures and meet different kinds of people
-          and make friends.
+          Islands of Maldives, From the futuristic cities Japan to the{' '}
+          <s> towering Sky Scrappers of New York</s> (trip canceled due to
+          COVID-19). We love to explore, feel nature, marvel at city
+          architectures, learn other cultures and taste the exotic flavor of
+          their cuisines, meet different kinds of people and make new friends.
         </motion.p>
+
+        <motion.blockquote
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1, transition: { delay: 0.2 } }}
+        >
+          <p>“Never go on trips with anyone you do not love.” ― Hemmingway</p>
+        </motion.blockquote>
+
         <motion.p
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.2 } }}
@@ -109,10 +119,21 @@ export default function About() {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.2 } }}
         >
-          I also like Ancient History and Astronomy from studying our history to
-          finding out our future. Those are the things that keeps me up at night
-          and wonder.
+          I also like Ancient History, Astronomy and Physics from the mystery of
+          building the Great Pyramid Giza to the brightest star in the Milky
+          Way. Is there really a parallel Universe? I just hope I'm tall, rich
+          and good looking man somewhere there. 😂 Those are the things that
+          keep me up at night and wonder.
         </motion.p>
+
+        <motion.blockquote
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1, transition: { delay: 0.2 } }}
+        >
+          <p>
+            “In this bright future you can't forget your past.” ― Bob Marley
+          </p>
+        </motion.blockquote>
 
         <motion.h2
           initial={{ y: 50, opacity: 0 }}
@@ -125,10 +146,12 @@ export default function About() {
           animate={{ y: 0, opacity: 1, transition: { delay: 0.4 } }}
         >
           I've been web developing for 8+ years now. Time does indeed fly when
-          your having fun. It seems only yesterday when I started converting
-          PSD's to HTML as my first web developer job. I work mostly on frontend
-          development because that's where I found my passion. I love seeing
-          fast, creative and intuitive websites. Lighthouse is my friend.
+          you're having fun. It seems only yesterday when I started converting
+          PSD's to HTML as my first web developer job. Then I became a Software
+          Engineer in a BPO industry. I got to work with various companies
+          there. I work mostly on front-end development because that's where I
+          found my passion. I love seeing fast, creative and intuitive websites.
+          Google lighthouse is my friend.
         </motion.p>
 
         <motion.blockquote
@@ -136,12 +159,12 @@ export default function About() {
           animate={{ y: 0, opacity: 1, transition: { delay: 0.4 } }}
         >
           <p>
-            "Creating a website is a process of setting the right colors to
+            “Creating a website is a process of setting the right colors to
             define mood and apply the right contrast to give emphasize to an
             element, implementing the right font sizes to define hierarchy,
             adding animations to symbolize interaction and activity, intuitive
             enough so that visitors understands the flow of the website and
-            faster than the speed of light." - Mark Anthony Uy
+            faster than the speed of light.“ ― Mark Anthony Uy
           </p>
         </motion.blockquote>
 
@@ -151,8 +174,9 @@ export default function About() {
         >
           I'm very passionate at what I do even though it's not easy keeping up
           with the technologies. It feels impossible to learn everything but if
-          there's one thing I learn from using Linux, it's do one thing and do
-          it really good. That's why I'm focusing on the frontend side.
+          there's one thing I learn from using Linux, it's{' '}
+          <b>Do one thing and do it really good</b>. That's why I'm focusing on
+          the front-end side.
         </motion.p>
 
         <motion.p
@@ -160,14 +184,24 @@ export default function About() {
           animate={{ y: 0, opacity: 1, transition: { delay: 0.4 } }}
         >
           In the near future, I plan to learn Gatsby, GraphQL, Typscript,
-          Strapijs, Redwoodjs, Sveltejs and Figma. Wish me luck!
+          Strapijs, Redwoodjs, Sveltejs and Figma. This goes with the quote that
+          I really love.
         </motion.p>
+
+        <motion.blockquote
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1, transition: { delay: 0.4 } }}
+        >
+          <p>
+            “If you fail to plan, you are planning to fail.“ ― Benjamin Franklin
+          </p>
+        </motion.blockquote>
 
         <motion.p
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.4 } }}
         >
-          Big fan of open source.
+          Wish me luck.
         </motion.p>
 
         <motion.h2
@@ -181,8 +215,8 @@ export default function About() {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.6 } }}
         >
-          I use the following languages, libraries, frameworks and tools when
-          creating a website.
+          I'm a big fan of open source I use the following languages, libraries,
+          frameworks and tools when creating a website.
         </motion.p>
 
         <ToolIcons delay={0.7} />
@@ -191,18 +225,30 @@ export default function About() {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.8 } }}
         >
-          Website
+          My Website
         </motion.h2>
         <motion.p
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.9 } }}
         >
-          This redesign of my website is inspired by many website. I often got
-          my idea from looking at other people work and add my own flavor. I
-          follow a lot of really cool people in the industry, listen to web
-          development podcasts and read blogs. If you want to check them out
-          here are some.
+          This redesign of my website is inspired by many websites. I often got
+          my ideas from looking at other people work, then I add my own flavor
+          and style to the mix. For example the colored border that wrapped the
+          quotes is inspired by Codepen's buton, Bigger fonts is from Smashing
+          magazine and Design course website. I follow a lot of really cool
+          people in the industry, listen to web development podcasts and read
+          blogs. If you want to check them out here are some.
         </motion.p>
+
+        <motion.blockquote
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1, transition: { delay: 0.9 } }}
+        >
+          <p>
+            “Imitation is not just the sincerest form of flattery - it's the
+            sincerest form of learning.” ― George Bernard Shaw
+          </p>
+        </motion.blockquote>
 
         {makeList({ list: PEOPLE, title: 'People' })}
         {makeList({ list: PODCAST, title: 'Podcast' })}
