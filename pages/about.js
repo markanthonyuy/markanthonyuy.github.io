@@ -159,7 +159,7 @@ export default function About() {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.4 } }}
         >
-          In the near future, I will plan to learn Gatsby, GraphQL, Typscript,
+          In the near future, I plan to learn Gatsby, GraphQL, Typscript,
           Strapijs, Redwoodjs, Sveltejs and Figma. Wish me luck!
         </motion.p>
 
