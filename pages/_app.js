@@ -1,4 +1,4 @@
-import '../global.css'
+import '../global.scss'
 import Head from 'next/head'
 
 const DESC =
