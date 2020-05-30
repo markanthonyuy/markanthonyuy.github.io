@@ -1,0 +1,227 @@
+/* PURPLE: #1C1D28*/
+
+/* DEFAULTS */
+
+html,body { height: 100%; background: #f9f9f9;}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; color: #2a2a2a;}
+a { 
+	color: #838543; 
+	text-decoration: underline;
+}
+
+a, p, ul, li {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s eases;
+    -o-transition: all 0.5s eases;
+    transition: all 0.5s eases;
+}
+
+a:hover { 
+	color: #55562c; 
+	text-decoration: underline;
+}
+
+.main { 
+	display: flex; 
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.main-child {
+	flex-basis: 500px;
+	flex-grow: 1;
+}
+
+/* LEFT */
+
+.main-left { 
+	padding: 20px; 
+	background: #f9f9f9;
+}
+
+.main-left p {
+	margin-bottom: 40px;
+	font-size: 24px;
+	font-family: 'Ubuntu';
+	font-style: italic;
+}
+
+.main-footer {
+	float: right;
+}
+
+.main-footer ul::after { content: ''; display: block; clear: both; }
+
+.main-footer ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+.main-footer ul li {
+	float: left;
+	width: 70px;
+}
+
+.main-footer ul li a img{
+	width: 90%;
+}
+
+/* MIDDLE */
+
+.main-middle { 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #1C1D28;
+	width: 100%;
+}
+
+.main-middle-photo {
+	text-align: center;
+}
+
+.my-photo {
+	width: 80%;
+	border-radius: 50%;
+	-webkit-transition: -webkit-transform 1s ease-in-out;
+	-moz-transition: -moz-transform 1s ease-in-out;
+	-o-transition: -o-transform 1s ease-in-out;
+	transition: transform 1s ease-in-out;
+}
+
+.my-photo-wrap {
+	display: inline-block;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.my-photo-wrap::before {
+	display: none;
+	content: '';
+}
+
+.my-photo-wrap:hover::before {
+	display: inline-block;
+}
+
+.my-photo:hover {
+	-webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+.main-middle-photo figcaption {
+	color: #FFFFFF;
+	font-family: 'Ubuntu';
+}
+
+/* RIGHT */
+
+.main-right {
+	background: #f9f9f9;
+	padding: 20px;
+	font-family: 'Ubuntu';
+}
+
+.main-right h2 {
+	margin-bottom: 20px;
+}
+
+.main-right-experience-list {
+	list-style: none;
+	margin-bottom: 30px;
+}
+
+.main-right-experience-list li {
+	border-bottom: 1px solid #ccc;
+	padding: 3px 0;
+}
+
+.exp-year {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+
+.exp-year::after {
+	content: ' |';
+}
+
+@media only screen and (max-width: 930px) {
+	.main { 
+		flex-direction: column;
+		height: 1100px;
+	}
+
+	.main-child {
+		flex-basis: 300px;
+		flex-grow: 1;
+	}
+
+	.main-left { 
+		position: relative;
+	}
+
+	.main-left p {
+		margin-bottom: 20px;
+	}
+
+	.main-left-footer {
+		right: 0;
+		bottom: 10px;
+	}
+
+	.main-middle-photo {
+		margin-top: 15px;
+		padding: 10px;
+	}
+
+	.my-photo {
+		width: 256px;
+		height: 256px;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+	.main-left p {
+		font-size: 20px;
+	}
+}
+
+
+@media only screen and (max-width: 479px) {
+	.exp-year { 
+		display: block; 
+		text-align: left;
+	}
+
+	.exp-year::after {
+		content: '';
+	}
+}
+
+@media only screen and (min-width: 930px) and (max-width: 1529px) {
+	.exp-year { 
+		display: block; 
+		text-align: left;
+	}
+
+	.exp-year::after {
+		content: '';
+	}
+}
+
+@media only screen and (max-width: 1149px) {
+	.main-right li {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width:  930px) and (max-width: 1080px) {
+	.main-right li b {
+		display: block;
+	}
+}
