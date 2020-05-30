@@ -20,6 +20,8 @@ export default function Contact() {
     show: { opacity: 1 },
   }
 
+  const email = 'macmac.uy'
+
   return (
     <Container>
       <Nav active="contact" />
@@ -38,9 +40,10 @@ export default function Contact() {
           I'm always open to talk. Whether you want to know more about me or
           want to talk about websites. I'm just one ping away. You can find me
           on various social media or you can email me at{' '}
-          <a href="mailto:macmac.uy@gmail.com?subject=Hello%20Mark">
-            macmac.uy@gmail.com
+          <a href={`mailto:${email}@gmail.com?subject=Hello%20Mark`}>
+            {email}@gmail.com
           </a>
+          . Hope to talk to you soon!
         </motion.p>
 
         <motion.h2

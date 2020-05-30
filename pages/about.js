@@ -102,16 +102,16 @@ export default function About() {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.2 } }}
         >
-          I love basketball (I'm a huge NBA fan), reading manga, watching anime,
-          Friends, The Big Bang Theory and dota2 tournament.
+          I love playing basketball (I'm a huge NBA fan), reading manga,
+          watching anime, Friends, The Big Bang Theory and Dota2 tournament.
         </motion.p>
         <motion.p
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.2 } }}
         >
-          I also like Ancient History and Astronomy from knowing our history to
-          finding out about our future. Those are the things that keeps me up at
-          night and wonder.
+          I also like Ancient History and Astronomy from studying our history to
+          finding out our future. Those are the things that keeps me up at night
+          and wonder.
         </motion.p>
 
         <motion.h2
@@ -128,7 +128,7 @@ export default function About() {
           your having fun. It seems only yesterday when I started converting
           PSD's to HTML as my first web developer job. I work mostly on frontend
           development because that's where I found my passion. I love seeing
-          fast, creative and intuitive websites.
+          fast, creative and intuitive websites. Lighthouse is my friend.
         </motion.p>
 
         <motion.blockquote
@@ -140,8 +140,8 @@ export default function About() {
             define mood and apply the right contrast to give emphasize to an
             element, implementing the right font sizes to define hierarchy,
             adding animations to symbolize interaction and activity, intuitive
-            enough so that visitors understands the flow of using the website
-            and faster than the speed of light." - Mark Anthony Uy
+            enough so that visitors understands the flow of the website and
+            faster than the speed of light." - Mark Anthony Uy
           </p>
         </motion.blockquote>
 
@@ -151,7 +151,7 @@ export default function About() {
         >
           I'm very passionate at what I do even though it's not easy keeping up
           with the technologies. It feels impossible to learn everything but if
-          there is one thing I learn from using Linux, it's do one thing and do
+          there's one thing I learn from using Linux, it's do one thing and do
           it really good. That's why I'm focusing on the frontend side.
         </motion.p>
 
@@ -159,7 +159,7 @@ export default function About() {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.4 } }}
         >
-          In the near future, I will try to learn Gatsby, GraphQL, Typscript,
+          In the near future, I will plan to learn Gatsby, GraphQL, Typscript,
           Strapijs, Redwoodjs, Sveltejs and Figma. Wish me luck!
         </motion.p>
 

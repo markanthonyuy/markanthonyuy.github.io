@@ -9,6 +9,7 @@ export default function Project() {
     show: {
       opacity: 1,
       transition: {
+        delay: 0.7,
         delayChildren: 0.3,
         staggerChildren: 0.1,
       },
@@ -31,11 +32,62 @@ export default function Project() {
           My Work
         </motion.h1>
 
-        <motion.p
+        <motion.h2
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.2 } }}
         >
-          This is the list of my personal projects.
+          Professional
+        </motion.h2>
+
+        <motion.p
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1, transition: { delay: 0.3 } }}
+        >
+          I'm currently maintaining and developing an ecommerce site.
+        </motion.p>
+
+        <motion.h2
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1, transition: { delay: 0.4 } }}
+        >
+          Personal
+        </motion.h2>
+
+        <motion.p
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1, transition: { delay: 0.5 } }}
+        >
+          During my pastime I like to think of how can I solve problems. Just
+          simple problems that I'm having. I remember a colleague of mine first
+          made a Manga reader. I was in awe and got really inspired from that
+          day. I told myself that since I love reading manga I thought of the
+          problem that I always encounter. It's LOADING SPEED, POOR UI and Ads
+          Ads Ads! If you're reading manga definitely you are aware of these
+          problems, besides manga images are extemely huge the sites are always
+          bombarded with ads. Quite annoying. I don't blame them though if
+          that's their monitezation strategy. Anyway, I just took actions of the
+          matter and build my own Manga Reader. And{' '}
+          <a href="http://libremanga.herokuapp.com/">Libremanga</a> was born.
+          (FYI this is not maintained) My first web app. Then the rest is
+          history :)
+        </motion.p>
+
+        <motion.p
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1, transition: { delay: 0.5 } }}
+        >
+          I like to use different tech/tools when creating my own app. Mix and
+          match to see which one will fit my style. This is one of the great
+          parts of doing your own projects. You get to decide which one to use.
+          I'm my own BOSS!
+        </motion.p>
+
+        <motion.p
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1, transition: { delay: 0.5 } }}
+        >
+          Here are some of my personal projects. Or you can check out my{' '}
+          <a href="https://github.com/markanthonyuy">github account</a>.
         </motion.p>
 
         <motion.div
@@ -73,7 +125,7 @@ export default function Project() {
               Updated market value of UITF's available in the Philippines.
             </span>
             <span className={styles.built}>
-              <span>Reactjs</span> <span>Material UI</span>
+              <span>Reactjs</span> <span>Material UI</span> <span>PWA</span>
             </span>
           </motion.div>
           <motion.div variants={item}>
