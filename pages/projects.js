@@ -143,14 +143,14 @@ export default function Project() {
           made a Manga reader. I was in awe and got really inspired. Since I
           love reading manga, I told myself what is the problem that I mostly
           encounter when doing so. The answers are LOADING SPEED, POOR UI and
-          Ads everywhere! If you are reading manga as well you are definitely
-          aware of these problems. Besides, manga images are notorious for their
-          large size and it's always bombarded with ads. Quite annoying. Though,
-          I don't blame them if that's how they make money. Anyway, I just took
-          action on the matter and build my own Manga Reader. And{' '}
-          <a href="http://libremanga.herokuapp.com/">Libremanga</a> was born.
-          (FYI this is not maintained.) My first web app. Then the rest is
-          history :)
+          Ads everywhere! If you are reading manga as well, you are definitely
+          aware of the problems I just mentioned. Besides, manga images are
+          notorious for their large size and it's always bombarded with ads.
+          Quite annoying. Though, I don't blame them if that's how they make
+          money. Anyway, I just took action on the matter and build my own Manga
+          Reader. And <a href="http://libremanga.herokuapp.com/">Libremanga</a>{' '}
+          was born. (FYI this is not maintained.) My first web app. Then the
+          rest is history :)
         </motion.p>
 
         <motion.blockquote
