@@ -45,7 +45,7 @@
 
   &:hover {
     > img {
-      filter: blur(1.5px);
+      filter: blur(2px);
     }
 
     &::before {
@@ -87,7 +87,7 @@
       $main-green
     );
     opacity: 0;
-    transition: opacity 0.7s ease-in-out, transform 0.5s linear;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
     font-size: 22px;
     text-align: center;
 

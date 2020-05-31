@@ -32,7 +32,7 @@ export default function Home() {
         >
           Welcome to my site. I'm a Software Engineer specializing in front-end
           development. I like to travel, spend time with my family and create a
-          bunch of web apps. It excites me knowing that everyday is an
+          bunch of web apps. It excites me knowing that every day is an
           opportunity to learn new things.
         </motion.p>
 

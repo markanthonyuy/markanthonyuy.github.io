@@ -9,7 +9,10 @@ export default function Nav({ active }) {
       <a className={active === 'about' ? styles.active : ''} href="/about">
         About
       </a>
-      <a className={active === 'project' ? styles.active : ''} href="/project">
+      <a
+        className={active === 'projects' ? styles.active : ''}
+        href="/projects"
+      >
         Projects
       </a>
       <a className={active === 'contact' ? styles.active : ''} href="/contact">

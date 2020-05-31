@@ -57,7 +57,8 @@ export default function Contact() {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.4 } }}
         >
-          Currently, I'm not actively seeking but my doors are always open.
+          Currently, I'm not actively seeking for a job but my doors are always
+          open.
         </motion.p>
 
         <motion.h2
