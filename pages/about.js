@@ -94,9 +94,9 @@ export default function About() {
           I'm Mark a.k.a. "Mac", husband to Bev, son of Tony and Lerma and the
           youngest of their children. Me and my wife loves to travel, We've seen
           the best white sand beaches of the Philippines to the beautiful
-          Islands of Maldives, From the futuristic cities Japan to the{' '}
+          Islands of Maldives, From the futuristic cities of Japan to the{' '}
           <s> towering Sky Scrappers of New York</s> (trip canceled due to
-          COVID-19). We love to explore, feel nature, marvel at city
+          COVID-19). We love to explore, chill with nature, marvel at cities
           architectures, learn other cultures and taste the exotic flavor of
           their cuisines, meet different kinds of people and make new friends.
         </motion.p>
@@ -113,17 +113,18 @@ export default function About() {
           animate={{ y: 0, opacity: 1, transition: { delay: 0.2 } }}
         >
           I love playing basketball (I'm a huge NBA fan), reading manga,
-          watching anime, Friends, The Big Bang Theory and Dota2 tournament.
+          watching anime, Friends, The Big Bang Theory and Dota 2 tournament.
         </motion.p>
         <motion.p
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.2 } }}
         >
-          I also like Ancient History, Astronomy and Physics from the mystery of
-          building the Great Pyramid Giza to the brightest star in the Milky
-          Way. Is there really a parallel Universe? I just hope I'm tall, rich
-          and good looking man somewhere there. 😂 Those are the things that
-          keep me up at night and wonder.
+          I also like Ancient History, Astronomy and Physics. From the mystery
+          of building the Great Pyramid Giza to the countless posibility of
+          another civilization million miles away, to the question of the
+          discovery of parallel universe. (I just hope I'm tall, rich and good
+          looking man somewhere there. 😂) Those are the questions that makes me
+          wonder at night.
         </motion.p>
 
         <motion.blockquote
@@ -175,8 +176,8 @@ export default function About() {
           I'm very passionate at what I do even though it's not easy keeping up
           with the technologies. It feels impossible to learn everything but if
           there's one thing I learn from using Linux, it's{' '}
-          <b>Do one thing and do it really good</b>. That's why I'm focusing on
-          the front-end side.
+          <b>Do one thing and do it really good</b>. That's the reason I focus
+          on the front-end side.
         </motion.p>
 
         <motion.p
@@ -215,8 +216,8 @@ export default function About() {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.6 } }}
         >
-          I'm a big fan of open source I use the following languages, libraries,
-          frameworks and tools when creating a website.
+          I'm a big fan of open source. I use the following languages,
+          libraries, frameworks and tools when creating a website.
         </motion.p>
 
         <ToolIcons delay={0.7} />
@@ -231,13 +232,12 @@ export default function About() {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.9 } }}
         >
-          This redesign of my website is inspired by many websites. I often got
-          my ideas from looking at other people work, then I add my own flavor
-          and style to the mix. For example the colored border that wrapped the
-          quotes is inspired by Codepen's buton, Bigger fonts is from Smashing
-          magazine and Design course website. I follow a lot of really cool
-          people in the industry, listen to web development podcasts and read
-          blogs. If you want to check them out here are some.
+          The new redesign of my website is inspired by my favorite websites. I
+          often got my ideas from looking at other people work, then I add my
+          own flavor and style to the mix. For example the colored border that
+          wrapped the quotes is inspired by Codepen's buton, Bigger fonts is
+          from Smashing magazine and Design course website. Hopefully, I was
+          able to create something cool.
         </motion.p>
 
         <motion.blockquote
@@ -249,6 +249,15 @@ export default function About() {
             sincerest form of learning.” ― George Bernard Shaw
           </p>
         </motion.blockquote>
+
+        <motion.p
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1, transition: { delay: 0.9 } }}
+        >
+          I follow a lot of awesome people in the industry, listen to web
+          development podcasts and read blogs. If you want to check them out
+          here are some.
+        </motion.p>
 
         {makeList({ list: PEOPLE, title: 'People' })}
         {makeList({ list: PODCAST, title: 'Podcast' })}

@@ -50,7 +50,7 @@ export default function Contact() {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.3 } }}
         >
-          Hire me
+          Got a job for me?
         </motion.h2>
 
         <motion.p
@@ -78,6 +78,7 @@ export default function Contact() {
             href="https://twitter.com/markanthonyuy"
             rel="noopener"
             variants={item}
+            ariaLabel="Twitter"
           >
             <svg
               width="50"
@@ -99,6 +100,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/uymarkanthony/"
             rel="noopener"
             variants={item}
+            ariaLabel="LinkedIn"
           >
             <svg
               viewBox="0 0 64 64"
@@ -117,6 +119,7 @@ export default function Contact() {
             href="https://instagram.com/macmac.uy"
             rel="noopener"
             variants={item}
+            ariaLabel="Instagram"
           >
             <svg
               width="50"

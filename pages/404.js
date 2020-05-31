@@ -1,31 +1,17 @@
-import styles from './contact.module.scss'
 import Container from '../components/Container'
 import Nav from '../components/Nav'
 import { motion } from 'framer-motion'
 
-export default function Contact() {
-  const container = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: {
-        delayChildren: 0.5,
-        staggerChildren: 0.1,
-      },
-    },
-  }
-
-  const item = {
-    hidden: { opacity: 0 },
-    show: { opacity: 1 },
-  }
-
-  const email = 'macmac.uy'
-
+export default function Custom404() {
   return (
     <Container>
-      <Nav active="contact" />
-      <div className={styles.contact}>
+      <Nav />
+      <style jsx>{`
+        div.error {
+          padding-top: 50px;
+        }
+      `}</style>
+      <div className="error">
         <motion.h1
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

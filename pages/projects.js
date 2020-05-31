@@ -140,17 +140,17 @@ export default function Project() {
         >
           During my pastime I like to think of how can I solve problems. Just
           simple problems that I'm having. I remember a colleague of mine first
-          made a Manga reader. I was in awe and got really inspired from that
-          day. Since I love reading manga, I told myself that what is the
-          problem that I mostly encounter. The answers are LOADING SPEED, POOR
-          UI and Ads everywhere! If you're reading manga definitely you are
-          aware of these problems, besides manga images are extremely huge the
-          sites are always bombarded with ads. Quite annoying. I don't blame
-          them though if that's their monetization strategy. Anyway, I just took
-          action on the matter and build my own Manga Reader. And{' '}
-          <a href="http://libremanga.herokuapp.com/">Libremanga</a> was born.
-          (FYI this is not maintained.) My first web app. Then the rest is
-          history :)
+          made a Manga reader. I was in awe and got really inspired. Since I
+          love reading manga, I told myself that what is the problem that I
+          mostly encounter when doing so. The answers are LOADING SPEED, POOR UI
+          and Ads everywhere! If you are reading manga as well you are
+          definitely aware of these problems. Besides manga images are notorious
+          for their large size and it's always bombarded with ads. Quite
+          annoying. Though, I don't blame them if that's how they make money.
+          Anyway, I just took action on the matter and build my own Manga
+          Reader. And <a href="http://libremanga.herokuapp.com/">Libremanga</a>{' '}
+          was born. (FYI this is not maintained.) My first web app. Then the
+          rest is history :)
         </motion.p>
 
         <motion.blockquote

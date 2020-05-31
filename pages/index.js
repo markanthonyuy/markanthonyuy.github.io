@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import styles from './main.module.scss'
 import Nav from '../components/Nav'
 import ToolIcons from '../components/ToolIcons'
@@ -32,13 +33,20 @@ export default function Home() {
         >
           Welcome to my site. I'm a Software Engineer specializing in front-end
           development. I like to travel, spend time with my family and create a
-          bunch of web apps. It excites me knowing that every day is an
-          opportunity to learn new things.
+          bunch of web apps.
         </motion.p>
 
         <motion.p
           initial={{ y: 50, opacity: 0 }}
-          animate={{ y: 0, opacity: 1, transition: { delay: 0.5 } }}
+          animate={{ y: 0, opacity: 1, transition: { delay: 0.3 } }}
+        >
+          It excites me knowing that every day is an opportunity to learn new
+          things.
+        </motion.p>
+
+        <motion.p
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1, transition: { delay: 0.4 } }}
         >
           Some of the languages, libraries, frameworks and tools that I'm using.
         </motion.p>
