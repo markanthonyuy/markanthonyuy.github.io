@@ -92,13 +92,13 @@ export default function About() {
           animate={{ y: 0, opacity: 1, transition: { delay: 0.2 } }}
         >
           I'm Mark a.k.a. "Mac", husband to Bev, son of Tony and Lerma and the
-          youngest of their children. Me and my wife loves to travel, We've seen
+          youngest of their children. My wife and I love to travel. We've seen
           the best white sand beaches of the Philippines to the beautiful
-          Islands of Maldives, From the futuristic cities of Japan to the{' '}
+          islands of Maldives, From the futuristic cities of Japan to the{' '}
           <s> towering Sky Scrappers of New York</s> (trip canceled due to
           COVID-19). We love to explore, chill with nature, marvel at cities
-          architectures, learn other cultures and taste the exotic flavor of
-          their cuisines, meet different kinds of people and make new friends.
+          architecture, learn other cultures and taste the exotic flavor of
+          their cuisine, meet different kinds of people and make new friends.
         </motion.p>
 
         <motion.blockquote
@@ -149,7 +149,7 @@ export default function About() {
           I've been web developing for 8+ years now. Time does indeed fly when
           you're having fun. It seems only yesterday when I started converting
           PSD's to HTML as my first web developer job. Then I became a Software
-          Engineer in a BPO industry. I got to work with various companies
+          Engineer in the BPO industry. I got to work with various companies
           there. I work mostly on front-end development because that's where I
           found my passion. I love seeing fast, creative and intuitive websites.
           Google lighthouse is my friend.
@@ -161,11 +161,11 @@ export default function About() {
         >
           <p>
             “Creating a website is a process of setting the right colors to
-            define mood and apply the right contrast to give emphasize to an
-            element, implementing the right font sizes to define hierarchy,
-            adding animations to symbolize interaction and activity, intuitive
-            enough so that visitors understands the flow of the website and
-            faster than the speed of light.“ ― Mark Anthony Uy
+            define mood and apply the right contrast to emphasize an element,
+            implementing the right font sizes to define hierarchy, adding
+            animations to symbolize interaction and activity, intuitive enough
+            so that visitors understands the flow of the website and faster than
+            the speed of light.“ ― Mark Anthony Uy
           </p>
         </motion.blockquote>
 
@@ -237,7 +237,8 @@ export default function About() {
           own flavor and style to the mix. For example the colored border that
           wrapped the quotes is inspired by Codepen's buton, Bigger fonts is
           from Smashing magazine and Design course website. Hopefully, I was
-          able to create something cool.
+          able to create something cool. If you want a peek of my old design
+          here is the <a href="https://markanthonyuy.com/old">link</a> .
         </motion.p>
 
         <motion.blockquote
