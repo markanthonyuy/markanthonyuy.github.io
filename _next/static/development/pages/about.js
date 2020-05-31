@@ -359,7 +359,7 @@ eval("var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtim
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2Fhome%2Fmacmac%2FProjects%2Fmarkanthonyuy.github.io%2Fpages%2Fabout.js ***!
   \**********************************************************************************************************************************************/
@@ -382,4 +382,4 @@ eval("module.exports = dll_5030f387d328e4415785;//# sourceURL=[module]\n//# sour
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
