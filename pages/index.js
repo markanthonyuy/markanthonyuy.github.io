@@ -32,8 +32,8 @@ export default function Home() {
           animate={{ y: 0, opacity: 1, transition: { delay: 0.3 } }}
         >
           Welcome to my site. I'm a Software Engineer specializing in front-end
-          development. I like to travel, spend time with my family and create a
-          bunch of web apps.
+          development. I like to travel, spend time with my family and friends,
+          and create a bunch of web apps.
         </motion.p>
 
         <motion.p

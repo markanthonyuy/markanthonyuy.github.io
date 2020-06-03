@@ -93,8 +93,8 @@ export default function About() {
         >
           I'm Mark a.k.a. "Mac", husband to Bev, son of Tony and Lerma and the
           youngest of their children. My wife and I love to travel. We've seen
-          the best white sand beaches of the Philippines to the beautiful
-          islands of Maldives, From the futuristic cities of Japan to the{' '}
+          the best white sand beaches of the Philippines, to the beautiful
+          islands of Maldives, From the futuristic cities of Japan, to the{' '}
           <s> towering Sky Scrappers of New York</s> (trip canceled due to
           COVID-19). We love to explore, chill with nature, marvel at cities
           architecture, learn other cultures and taste the exotic flavor of
@@ -177,7 +177,7 @@ export default function About() {
           with the technologies. It feels impossible to learn everything but if
           there's one thing I learn from using Linux, it's{' '}
           <b>Do one thing and do it really good</b>. That's the reason I focus
-          on the front-end side.
+          in the front-end side.
         </motion.p>
 
         <motion.p

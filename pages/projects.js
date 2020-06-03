@@ -104,7 +104,7 @@ export default function Project() {
 
   return (
     <Container>
-      <Nav active="project" />
+      <Nav active="projects" />
       <div className={styles.project}>
         <motion.h1
           initial={{ y: 50, opacity: 0 }}
