@@ -235,7 +235,7 @@ export default function About() {
           The new redesign of my website is inspired by my favorite websites. I
           often got my ideas from looking at other people work, then I add my
           own flavor and style to the mix. For example the colored border that
-          wrapped the quotes is inspired by Codepen's buton, Bigger fonts is
+          wrapped the quotes is inspired by Codepen's button, Bigger fonts is
           from Smashing magazine and Design course website. Hopefully, I was
           able to create something cool. If you want a peek of my old design
           here is the <a href="https://markanthonyuy.com/old">link</a> .
