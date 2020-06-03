@@ -325,7 +325,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=%2Fhome%2Fmacmac%2FProjects%2Fmarkanthonyuy.github.io%2Fpages%2Fprojects.js ***!
   \****************************************************************************************************************************************************/
@@ -348,4 +348,4 @@ eval("module.exports = dll_5030f387d328e4415785;//# sourceURL=[module]\n//# sour
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
