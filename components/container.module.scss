@@ -18,6 +18,7 @@
       $main-blue,
       $main-green
     );
+    animation: changeColor $color-animation-duration infinite;
   }
 
   &::after {
@@ -33,6 +34,7 @@
       $main-blue,
       $main-green
     );
+    animation: changeColor $color-animation-duration infinite;
   }
 }
 

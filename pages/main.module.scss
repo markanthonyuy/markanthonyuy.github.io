@@ -18,7 +18,7 @@
   align-items: center;
   border-radius: 50%;
   overflow: hidden;
-  animation: glow 3s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite alternate;
+  // animation: glow 5s linear infinite;
 
   @media (max-width: 500px) {
     display: none;
@@ -41,8 +41,9 @@
       $main-blue,
       $main-green
     );
-    box-shadow: 0px 0px 6px #2b3f69;
-    transition: all 0.5s ease-in-out;
+    // box-shadow: 0px 0px 6px #2b3f69;
+    // transition: all 0.5s ease-in-out;
+    animation: changeColor $color-animation-duration infinite;
   }
 
   &:hover {
@@ -94,6 +95,7 @@
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
     font-size: 22px;
     text-align: center;
+    animation: changeColor $color-animation-duration infinite;
 
     > span {
       opacity: 0;
@@ -119,15 +121,15 @@
     box-shadow: 0px 0px 0 #4c5b7a;
   }
   25% {
-    box-shadow: 0px 0px 3px #4c5b7a;
+    box-shadow: 0px 0px 6px #4c5b7a;
   }
   50% {
-    box-shadow: 0px 0px 6px #4c5b7a;
+    box-shadow: 0px 0px 0 #4c5b7a;
   }
   75% {
     box-shadow: 0px 0px 9px #4c5b7a;
   }
   100% {
-    box-shadow: 0px 0px 12px #4c5b7a;
+    box-shadow: 0px 0px 0 #4c5b7a;
   }
 }

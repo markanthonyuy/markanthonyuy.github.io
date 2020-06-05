@@ -73,6 +73,7 @@ blockquote {
     $main-blue,
     $main-green
   );
+  animation: changeColor $color-animation-duration infinite;
 }
 
 blockquote > p {
@@ -83,7 +84,9 @@ blockquote > p {
   display: inline-block;
   font-size: 1.6rem;
   line-height: 2.2rem;
-  background: linear-gradient(90deg, #020e27, #222c3e);
+  background: #000;
+  //background: linear-gradient(90deg, #020e27, #222c3e);
   border-radius: 20px;
   font-style: italic;
+  color: #fff;
 }
