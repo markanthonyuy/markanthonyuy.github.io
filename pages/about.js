@@ -232,13 +232,13 @@ export default function About() {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.9 } }}
         >
-          The new redesign of my website is inspired by my favorite websites. I
-          often got my ideas from looking at other people work, then I add my
-          own flavor and style to the mix. For example the colored border that
-          wrapped the quotes is inspired by Codepen's button, Bigger fonts is
-          from Smashing magazine and Design course website. Hopefully, I was
-          able to create something cool. If you want a peek of my old design
-          here is the <a href="https://markanthonyuy.com/old">link</a> .
+          This new design is inspired by my favorite websites. I often got my
+          ideas from looking at other people work, then I add my own flavor and
+          style to the mix. For example the colored border that wrapped the
+          quotes is inspired by Codepen's button, Bigger fonts is from Smashing
+          magazine and Design course website. Hopefully, I was able to create
+          something cool. If you want a peek of my old design here is the{' '}
+          <a href="https://markanthonyuy.com/old">link</a> .
         </motion.p>
 
         <motion.blockquote
