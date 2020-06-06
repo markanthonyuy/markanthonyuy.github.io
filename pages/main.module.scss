@@ -18,7 +18,7 @@
   align-items: center;
   border-radius: 50%;
   overflow: hidden;
-  // animation: glow 5s linear infinite;
+  animation: glow 5s linear infinite;
 
   @media (max-width: 500px) {
     display: none;
@@ -58,7 +58,7 @@
     }
 
     > .tagline {
-      opacity: 0.8;
+      opacity: 1;
       transform: translateY(-90px);
 
       > span {
@@ -77,22 +77,25 @@
   > .tagline {
     position: absolute;
     bottom: 0;
-    width: calc(100%);
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: 0 auto;
     padding: 11px 10px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 100;
-    background: linear-gradient(
-      90deg,
-      $main-red,
-      $main-yellow,
-      $main-purple,
-      $main-blue,
-      $main-green
-    );
+    // background: linear-gradient(
+    //   90deg,
+    //   $main-red,
+    //   $main-yellow,
+    //   $main-purple,
+    //   $main-blue,
+    //   $main-green
+    // );
     opacity: 0;
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out 0.15s, transform 0.3s ease-in-out;
     font-size: 22px;
     text-align: center;
     animation: changeColor $color-animation-duration infinite;
