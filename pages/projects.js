@@ -3,7 +3,7 @@ import Container from '../components/Container'
 import Nav from '../components/Nav'
 import { motion } from 'framer-motion'
 
-export default function Project() {
+export default function Projects() {
   const container = {
     hidden: { opacity: 0 },
     show: {
