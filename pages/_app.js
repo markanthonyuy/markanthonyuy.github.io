@@ -4,7 +4,7 @@ import Head from 'next/head'
 const DESC =
   "Mark Anthony Uy is a Senior Frontend Developer from the Philippines. If you like coding let's talk. 😊"
 const TITLE =
-  'Mark Anthony Uy - Web Developer | HTML, CSS, Javascript, Reactjs, Nodejs, Nextjs, PHP, SASS, GIT, Bash, Linux, JAMSTACK, UI, UX and more.'
+  'Mark Anthony Uy - Software Engineer, Web Developer, Front-end | HTML, CSS, Javascript, Reactjs, Nodejs, Nextjs, PHP, SASS, GIT, Bash, Linux, JAMSTACK, UI, UX and more.'
 const URL = 'https://markanthonyuy.com'
 const PREVIEW_IMG = `${URL}/preview.png`
 
