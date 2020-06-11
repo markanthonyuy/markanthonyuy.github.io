@@ -62,9 +62,9 @@ blockquote {
   position: relative;
   width: auto;
   margin-bottom: 25px;
-  padding: 3px;
+  padding: 1px;
   display: inline-block;
-  border-radius: 20px;
+  border-radius: 10px;
   background: linear-gradient(
     90deg,
     $main-red,
@@ -80,13 +80,13 @@ blockquote > p {
   width: auto;
   height: 100%;
   margin: 0;
-  padding: 20px 30px;
+  padding: 15px;
   display: inline-block;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   line-height: 2.2rem;
   background: #000;
   //background: linear-gradient(90deg, #020e27, #222c3e);
-  border-radius: 20px;
+  border-radius: 10px;
   font-style: italic;
   color: #fff;
 }
