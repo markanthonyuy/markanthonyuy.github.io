@@ -3,15 +3,26 @@
 .about {
   padding-top: 50px;
 
-  > ul {
-    margin-bottom: 25px;
-    padding: 0;
-    list-style: none;
+  > .list {
+    display: flex;
+    justify-content: space-between;
 
-    > li {
-      > a {
-        padding: 5px 0;
-        display: inline-block;
+    @media (max-width: 600px) {
+      display: block;
+    }
+
+    > .box {
+      > ul {
+        margin-bottom: 25px;
+        padding: 0;
+        list-style: none;
+
+        > li {
+          > a {
+            padding: 5px 0;
+            display: inline-block;
+          }
+        }
       }
     }
   }
