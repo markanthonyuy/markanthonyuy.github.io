@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Container from '../components/Container'
 import Nav from '../components/Nav'
 import { motion } from 'framer-motion'
@@ -5,6 +6,13 @@ import { motion } from 'framer-motion'
 export default function Custom404() {
   return (
     <Container>
+      <Head>
+        <meta
+          name="description"
+          content="Only a few are able to see this page. The Lost, The Explorers, The Wanderers, The Thinkerers, The Hackers who constantly look for possible penetration to my code. (Just check out my Github to make your life easier. 😉) or Maybe you just simply made a typo, let me call you The Typo Maker!"
+        ></meta>
+        <title>404 - Page Not Found | Mark Anthony Uy</title>
+      </Head>
       <Nav />
       <style jsx>{`
         div.error {
