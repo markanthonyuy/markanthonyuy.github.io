@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import styles from './about.module.scss'
 import Container from '../components/Container'
 import ToolIcons from '../components/ToolIcons'
@@ -79,6 +80,14 @@ export default function About() {
 
   return (
     <Container>
+      <Head>
+        <meta
+          name="description"
+          content="I'm Mark a.k.a. 'Mac', husband to Bev, son of Tony and Lerma and the
+          youngest of their children. My wife and I love to travel."
+        ></meta>
+        <title>About Me | Mark Anthony Uy</title>
+      </Head>
       <Nav active="about" />
       <div className={styles.about}>
         <motion.h1

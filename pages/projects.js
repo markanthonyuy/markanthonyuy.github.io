@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import styles from './project.module.scss'
 import Container from '../components/Container'
 import Nav from '../components/Nav'
@@ -110,6 +111,13 @@ export default function Projects() {
 
   return (
     <Container>
+      <Head>
+        <meta
+          name="description"
+          content="Here are some of the projects that I've built over the course of my career."
+        ></meta>
+        <title>My Projects | Mark Anthony Uy</title>
+      </Head>
       <Nav active="projects" />
       <div className={styles.project}>
         <motion.h1

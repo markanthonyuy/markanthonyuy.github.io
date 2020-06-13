@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import styles from './contact.module.scss'
 import Container from '../components/Container'
 import Nav from '../components/Nav'
@@ -24,6 +25,14 @@ export default function Contact() {
 
   return (
     <Container>
+      <Head>
+        <meta
+          name="description"
+          content="I'm always open to talk. Whether you want to know more about me or
+        want to talk about websites. I'm just one ping away."
+        ></meta>
+        <title>Contact Me | Mark Anthony Uy</title>
+      </Head>
       <Nav active="contact" />
       <div className={styles.contact}>
         <motion.h1
