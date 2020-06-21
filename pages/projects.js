@@ -24,6 +24,18 @@ export default function Projects() {
 
   const projects = [
     {
+      name: 'Hacker News',
+      link: 'https://newshacker.vercel.app/',
+      desc: 'The Purple Hacker News.',
+      uses: ['Nextjs', 'Styled-Components'],
+    },
+    {
+      name: 'Puck Board',
+      link: 'https://codepen.io/markanthonyuy/pen/qBbNGQJ',
+      desc: 'The Purple Hacker News.',
+      uses: ['Pug', 'Javascript'],
+    },
+    {
       name: 'Jejenator',
       link: 'https://jejenator.netlify.app/',
       desc: 'The Jejemon Generator. Converts regular word to a Jejemon word.',
