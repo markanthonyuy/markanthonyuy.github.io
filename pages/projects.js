@@ -30,9 +30,9 @@ export default function Projects() {
       uses: ['Nextjs', 'Styled-Components'],
     },
     {
-      name: 'Puck Board',
+      name: 'Puck Board Game',
       link: 'https://codepen.io/markanthonyuy/pen/qBbNGQJ',
-      desc: 'The Purple Hacker News.',
+      desc: 'Perya (Carnival) inspired game.',
       uses: ['Pug', 'Javascript'],
     },
     {
