@@ -24,6 +24,12 @@ export default function Projects() {
 
   const projects = [
     {
+      name: 'Github Jobs',
+      link: 'https://ghjobs.netlify.app/',
+      desc: 'My Version of Github Jobs.',
+      uses: ['Reactjs', 'Material UI'],
+    },
+    {
       name: 'Hacker News',
       link: 'https://newshacker.vercel.app/',
       desc: 'The Purple Hacker News.',
