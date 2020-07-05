@@ -27,7 +27,7 @@ export default function Projects() {
       name: 'Github Jobs',
       link: 'https://ghjobs.netlify.app/',
       desc: 'My Version of Github Jobs.',
-      uses: ['Reactjs', 'Material UI'],
+      uses: ['Reactjs', 'Material UI', 'Serverless'],
     },
     {
       name: 'Hacker News',
