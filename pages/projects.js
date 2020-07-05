@@ -51,7 +51,7 @@ export default function Projects() {
       name: 'Personal Website',
       link: 'https://markanthonyuy.com/',
       desc: 'This is the version 2 personal website.',
-      uses: ['Nextjs', 'Framer'],
+      uses: ['Nextjs', 'Framer', 'PWA'],
     },
     {
       name: 'Bingoo',
