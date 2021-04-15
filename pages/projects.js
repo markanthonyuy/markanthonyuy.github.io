@@ -61,7 +61,7 @@ export default function Projects() {
     },
     {
       name: 'Covid 19 Philippines Tracker',
-      link: 'https://covid19.com.ph/',
+      link: 'https://covid-19-ph.vercel.app/',
       desc: 'Dedicated Covid 19 Tracker for Philippines.',
       uses: ['Reactjs', 'Tailwind'],
     },
@@ -182,8 +182,8 @@ export default function Projects() {
           make money. Anyway, I just took action on the matter and build my own
           Manga Reader. And{' '}
           <a href="http://libremanga.herokuapp.com/">Libremanga</a> was born.
-          (FYI this is not maintained.) My first web app. Then the rest is
-          history :)
+          (FYI, this is not maintained and the API is now inactive.) My first
+          web app. Then the rest is history :)
         </motion.p>
 
         <motion.blockquote
