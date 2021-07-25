@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from './project.module.scss'
+import styles from './projects.module.scss'
 import Container from '../components/Container'
 import Nav from '../components/Nav'
 import { motion } from 'framer-motion'
@@ -28,102 +28,119 @@ export default function Projects() {
       link: 'https://ghjobs.netlify.app/',
       desc: 'My Version of Github Jobs.',
       uses: ['Reactjs', 'Material UI', 'Serverless'],
+      active: false,
     },
     {
       name: 'Hacker News',
       link: 'https://newshacker.vercel.app/',
       desc: 'The Purple Hacker News.',
       uses: ['Nextjs', 'Styled-Components'],
+      active: true,
     },
     {
       name: 'Puck Board Game',
       link: 'https://codepen.io/markanthonyuy/pen/qBbNGQJ',
       desc: 'Perya (Carnival) inspired game.',
       uses: ['Pug', 'Javascript'],
+      active: true,
     },
     {
       name: 'Jejenator',
       link: 'https://jejenator.netlify.app/',
       desc: 'The Jejemon Generator. Converts regular word to a Jejemon word.',
       uses: ['Sveltejs'],
+      active: true,
     },
     {
       name: 'Personal Website',
       link: 'https://markanthonyuy.com/',
       desc: 'This is the version 2 personal website.',
       uses: ['Nextjs', 'Framer', 'PWA'],
+      active: true,
     },
     {
       name: 'Bingoo',
       link: 'https://bingoo.now.sh/',
       desc: 'Fun to play Bingo Game.',
       uses: ['Reactjs', 'Framer', 'Styled-Components'],
+      active: true,
     },
     {
       name: 'Covid 19 Philippines Tracker',
       link: 'https://covid-19-ph.vercel.app/',
       desc: 'Dedicated Covid 19 Tracker for Philippines.',
       uses: ['Reactjs', 'Tailwind'],
+      active: true,
     },
     {
       name: 'Philippine UITF Listing',
       link: 'https://uitf.now.sh/',
       desc: "Updated market value of UITF's available in the Philippines.",
       uses: ['Reactjs', 'Material UI', 'PWA'],
+      active: true,
     },
     {
       name: 'Cryptomark',
       link: 'https://cryptomark.now.sh/',
       desc: 'Compare Cryptocurrencies Realtime.',
       uses: ['Reactjs', 'Bulma'],
+      active: true,
     },
     {
       name: 'Pokemon DB',
       link: 'https://pokedb.now.sh/',
       desc: 'Pokemon Database.',
       uses: ['Nextjs', 'Framer', 'Sass'],
+      active: true,
     },
     {
       name: 'Dota 2 Leaderboards',
       link: 'https://dota2leaderboards.now.sh/',
       desc: 'List of Dota2 players with the highest Rank.',
       uses: ['Nextjs', 'Framer', 'Serverless'],
+      active: true,
     },
     {
       name: 'Dota 2 Earnings',
       link: 'https://dota2earnings.now.sh/',
       desc: 'List of Dota 2 professional players with the highest earnings.',
       uses: ['Nextjs', 'Framer', 'Serverless'],
+      active: true,
     },
     {
       name: 'Palitan',
       link: 'https://markanthonyuy.com/palitan/',
       desc: 'Simple currency exchange rate.',
       uses: ['Reactjs'],
+      active: true,
     },
     {
       name: 'Manga Libre',
       link: 'https://mangalibre.herokuapp.com/',
       desc: 'Free, fast, simple and straightforward Manga Reader.',
       uses: ['Backbonejs', 'Jquery'],
+      active: false,
     },
     {
       name: 'Libre Manga',
       link: 'https://libremanga.herokuapp.com/',
       desc: 'My first manga reader app.',
       uses: ['HTML', 'CSS', 'Jquery'],
+      active: false,
     },
     {
       name: 'Marktip',
       link: 'https://markanthonyuy.com/markTip/',
       desc: 'Jquery tootlip plugin.',
       uses: ['Javascript', 'Jquery'],
+      active: true,
     },
     {
       name: 'Randomizer',
       link: 'https://markanthonyuy.com/randomizer/',
       desc: 'Random Team Generator.',
       uses: ['HTML', 'CSS', 'Javascript'],
+      active: true,
     },
   ]
 
@@ -220,7 +237,11 @@ export default function Projects() {
           animate="show"
         >
           {projects.map((project) => (
-            <motion.div variants={item} key={project.name}>
+            <motion.div
+              variants={item}
+              key={project.name}
+              className={`${!project.active ? styles.broken : ''}`}
+            >
               <div className={styles.top}>
                 <a href={project.link} className={styles.title} target="_blank">
                   {project.name}
@@ -237,6 +258,9 @@ export default function Projects() {
                   <span key={`${u}-${key}`}>{u}</span>
                 ))}
               </span>
+              {!project.active ? (
+                <span className={styles.brokenAPI}>Broken API</span>
+              ) : null}
             </motion.div>
           ))}
         </motion.div>
