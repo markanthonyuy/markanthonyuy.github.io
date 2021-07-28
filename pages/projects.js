@@ -112,7 +112,7 @@ export default function Projects() {
       link: 'https://markanthonyuy.com/palitan/',
       desc: 'Simple currency exchange rate.',
       uses: ['Reactjs'],
-      active: true,
+      active: false,
     },
     {
       name: 'Manga Libre',

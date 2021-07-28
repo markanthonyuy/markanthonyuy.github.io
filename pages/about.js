@@ -100,14 +100,15 @@ export default function About() {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.2 } }}
         >
-          I'm Mark a.k.a. "Mac", husband to Bev, son of Tony and Lerma and the
-          youngest of their children. My wife and I love to travel. We've seen
-          the best white sand beaches of the Philippines, to the beautiful
-          islands of Maldives, From the futuristic cities of Japan, to the{' '}
-          <s> towering Sky Scrappers of New York</s> (trip canceled due to
-          COVID-19). We love to explore, chill with nature, marvel at cities
-          architecture, learn other cultures and taste the exotic flavor of
-          their cuisine, meet different kinds of people and make new friends.
+          I'm Mark a.k.a. "Mac", husband to Bev, father of Uno, son of Tony and
+          Lerma and the youngest of their children. My wife and I love to
+          travel. We've seen the best white sand beaches of the Philippines, to
+          the beautiful islands of Maldives, From the futuristic cities of
+          Japan, to the <s> towering Sky Scrappers of New York</s> (trip
+          canceled due to COVID-19). We love to explore, chill with nature,
+          marvel at cities architecture, learn other cultures and taste the
+          exotic flavor of their cuisine, meet different kinds of people and
+          make new friends.
         </motion.p>
 
         <motion.blockquote
