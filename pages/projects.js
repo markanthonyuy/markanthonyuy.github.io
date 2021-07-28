@@ -259,7 +259,7 @@ export default function Projects() {
                 ))}
               </span>
               {!project.active ? (
-                <span className={styles.brokenAPI}>Broken API</span>
+                <span className={styles.brokenAPI}>Deprecated API</span>
               ) : null}
             </motion.div>
           ))}

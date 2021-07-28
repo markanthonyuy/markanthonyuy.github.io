@@ -130,7 +130,7 @@ export default function About() {
           animate={{ y: 0, opacity: 1, transition: { delay: 0.2 } }}
         >
           I also like Ancient History, Astronomy and Physics. From the mystery
-          of building the Great Pyramid Giza to the countless posibility of
+          of building the Great Pyramid Giza to the countless possibility of
           another civilization million miles away, to the question of the
           discovery of parallel universe. (I just hope I'm tall, rich and good
           looking man somewhere there. 😂) Those are the questions that makes me
@@ -195,7 +195,7 @@ export default function About() {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.4 } }}
         >
-          In the near future, I plan to learn Gatsby, GraphQL, Typscript,
+          In the near future, I plan to learn Gatsby, GraphQL, Typescript,
           Strapijs, Redwoodjs, Sveltejs and Figma. This goes with the quote that
           I really love.
         </motion.p>
