@@ -237,8 +237,8 @@ export default function About() {
           Windows to Linux. But once you put your foot on that water there is no
           turning back. To be honest, I can't see myself developing on a Windows
           machine again. Not that I have anything against Windows. It's just
-          that I'm so comfortable with Linux right now I'm just look for the
-          best distro's to try out there.
+          that I'm so comfortable with Linux right now I'm just looking for the
+          best distro's to try out.
         </motion.p>
 
         <motion.p

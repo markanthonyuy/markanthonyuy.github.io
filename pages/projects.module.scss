@@ -68,7 +68,9 @@
       }
 
       > .built {
-        display: block;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
 
         > span {
           margin: 0 5px 5px 0;

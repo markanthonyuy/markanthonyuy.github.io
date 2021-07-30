@@ -24,6 +24,13 @@ export default function Projects() {
 
   const projects = [
     {
+      name: 'Manga Go',
+      link: 'https://mangago.vercel.app/',
+      desc: 'Discover Manga on the Go.',
+      uses: ['Nextjs', 'Chakra UI', 'Valtio'],
+      active: true,
+    },
+    {
       name: 'Github Jobs',
       link: 'https://ghjobs.netlify.app/',
       desc: 'My Version of Github Jobs.',
