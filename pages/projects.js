@@ -24,6 +24,20 @@ export default function Projects() {
 
   const projects = [
     {
+      name: "Uno's Baptism",
+      link: 'https://uno-baptism.vercel.app/',
+      desc: "Uno's baptism photos.",
+      uses: ['Nextjs', 'Cloudinary'],
+      active: true,
+    },
+    {
+      name: "Uno's Record",
+      link: 'https://uno-records.vercel.app/',
+      desc: "Uno's immunization Records.",
+      uses: ['Nextjs', 'Framer'],
+      active: true,
+    },
+    {
       name: 'Manga Go',
       link: 'https://mangago.vercel.app/',
       desc: 'Discover Manga on the Go.',
