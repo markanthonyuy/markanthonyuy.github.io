@@ -1,8 +1,6 @@
 # Personal Website
 
-markanthonyuy.com
-
-visit site [here](http://markanthonyuy.com/)
+[markanthonyuy.com](http://markanthonyuy.com/)
 
 ## How to generate build
 
