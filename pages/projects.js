@@ -194,7 +194,7 @@ export default function Projects() {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 0.3 } }}
         >
-          I'm currently maintaining and developing an ecommerce site.
+          I'm currently babysitting my son. 😂
         </motion.p>
 
         <motion.h2
