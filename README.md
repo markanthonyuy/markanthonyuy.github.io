@@ -1,4 +1,4 @@
-Dear Future self,
+Dear future self,
 
 You messed up your repository! Idiot!
 
@@ -8,4 +8,4 @@ P.S. Please fix this in the future so we both can live in peace.
 
 Yours truly,
 
-Mark in the present
+Mark in the past
