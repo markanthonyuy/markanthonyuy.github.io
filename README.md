@@ -1,6 +1,6 @@
 Dear future self,
 
-You messed up your repository! Idiot!
+You messed up this repository! Idiot!
 
 Your branch [v2](https://github.com/markanthonyuy/markanthonyuy.github.io/tree/v2) is now your nextjs dev while the branch [master](https://github.com/markanthonyuy/markanthonyuy.github.io/tree/master) is the output file of nextjs SSG. Please remember that.
 
